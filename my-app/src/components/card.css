@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    width: auto;
+    height: 200px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.h4{
+    color: black;
+}
+.btn{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: all .3s ease-in;
+}
+.btn:hover{
+    background: green;
+}
+.card-body h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(70, 66, 66);
+}
+.card-body p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(70, 66, 66);
+}
+.mainCard{
+    background: rgb(216, 212, 212);
+    padding-bottom: 50px;
+}
+.hederCard{
+    margin-top: 50px;
+    padding-top: 20px;
+}
+.hederCard h3{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: rgb(117, 13, 214);
+    font-weight: 600;
+}
+.headerPerghp{
+    font-size: 23px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+/* start side bar */
+.sideImg{
+    width: 50px;
+    height:50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.headerPadding{
+    background: white; 
+    margin-left: 50px;
+    width: 400px;
+}
+.sideMain{
+    padding: 30px;
+    width: 400px;
+}
+.text h5{
+    margin-bottom: 0px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.text span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.mainP{
+    margin-top: 40px;
+    padding: 10px 0px;
+    background: rgb(221, 216, 216);
+    border-radius: 10px;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.flex h4{
+    margin-bottom: 0px;
+    font-size: 26
+    
+    px;
+    font-weight: 600px;
+}
+.flex p{
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 600px;
+}
+/* break section */
+.breakMain h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.breakItem{
+    background: rgb(221, 216, 216);
+    padding: 20px 0px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.itemB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    background: white;
+    transition: all .4s ease-in-out;
+    
+}
+.itemB:hover{
+    background: rgb(49, 15, 197);
+    color: aliceblue;
+}
+.itemB span{
+    font-size: 17px;
+    font-weight: 600;
+}
+.exerciceBox{
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.exerciceBox h4{
+    font-size: 22px;
+}
